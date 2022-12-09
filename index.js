@@ -7,7 +7,7 @@ const box = document.querySelector("#box");
 const cancel = document.querySelector("#cancel");
 const blurbg = document.querySelector("#blurbg");
 
-const height = document.querySelector("#heisght");
+const height = document.querySelector("#height");
 const weight = document.querySelector("#weight");
 
 // range on change functionality
@@ -21,7 +21,6 @@ show.innerHTML = age.value;
 // Profile Selection
 
 female.addEventListener("click", () => {
-  console.log("clicked");
   if (!male.classList.toggle("col") == false) {
     male.classList.remove("col");
   }
@@ -29,7 +28,6 @@ female.addEventListener("click", () => {
 });
 
 male.addEventListener("click", () => {
-  console.log("clicked");
   if (
     !female.classList.toggle("col") == true ||
     !female.classList.toggle("col") == false
