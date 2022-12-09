@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI</title>
+
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body>
+    <div
+      class="flex flex-col justify-start items-center bg-[#354259] w-screen h-screen"
+    >
+      <div class="my-6">
+        <h1 class="text-white text-[1.5rem] font-medium font-Poppins">
+          BMI Calculator
+        </h1>
+      </div>
+      <div class="w-[300px] bg-[#C2DED1] rounded-lg py-4 px-2 h-fit">
+        <div class="grid grid-cols-2 place-items-center py-4">
+          <div
+            class="flex flex-col justify-center items-center bg-img"
+            id="female"
+          >
+            <img
+              class="img"
+              src="assets/female-avatar.png"
+              alt="female-avatar"
+              srcset=""
+            />
+            <h3 class="font-Poppins font-medium text-sm">Female</h3>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center bg-img"
+            id="male"
+          >
+            <img
+              class="img"
+              src="assets/male-avatar.png"
+              alt="male-avatar"
+              srcset=""
+            />
+            <h3 class="font-Poppins font-medium text-sm">Male</h3>
+          </div>
+        </div>
+        <!-- ================== form content ============== -->
+
+        <form class="form" action="">
+          <div class="form-group">
+            <label for="age">Age (<span id="show"></span>)</label>
+            <input type="range" value="20" min="10" max="99" id="age" />
+          </div>
+          <div class="form-group">
+            <label for="height">Height (cm)</label>
+            <input type="number" id="height" />
+          </div>
+          <div class="form-group">
+            <label for="weight">Weight (wg)</label>
+            <input type="number" id="weight" />
+          </div>
+        </form>
+        <div class="calculate" id="calculate">
+          <p>Calculate</p>
+        </div>
+      </div>
+    </div>
+    <div class="hidden" id="box"></div>
+    <div id="blurbg"></div>
+    <div class="credit">
+      <p>Developed by <a href="https://github.com/msbalacse">@msbalacse</a></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
