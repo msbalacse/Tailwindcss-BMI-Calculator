@@ -34,7 +34,7 @@
     @apply bg-[#999292] text-white;
   }
   .box {
-    @apply absolute top-[30%] left-[3%] lg:top-[170px] lg:left-[450px] w-[300px] h-[300px] lg:w-[500px] bg-white z-10 font-Poppins font-normal  flex flex-col justify-center items-center;
+    @apply absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] lg:w-[500px] bg-white z-10 font-Poppins font-normal  flex flex-col justify-center items-center;
   }
   .box p {
     @apply text-[#354259];
