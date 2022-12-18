@@ -51,7 +51,7 @@
   }
 
   .credit {
-    @apply w-full font-Poppins font-light text-[10px] lg:text-[15px] absolute bottom-0 text-center;
+    @apply w-full font-Poppins font-light text-[10px] lg:text-[15px] fixed bottom-0 text-center;
   }
   .credit p a {
     @apply text-white;
