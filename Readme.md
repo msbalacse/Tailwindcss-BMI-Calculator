@@ -7,7 +7,7 @@ It's a Venilla JS project to Calculate the BMI Value. This Website use to style 
 ### Main Page
 
 ![photo](./assets/screenshots/screenshot%202.jpg)
-![img](https://imgur.com/a/DSrWivx)
+
 
 
 ### Calculated Page
